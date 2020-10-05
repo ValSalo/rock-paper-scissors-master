@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="score-box">
+    <div class="score-text">
+      <img src="images/logo-bonus.svg" alt="logo">
+    </div>
+    <div class="score-number">
+      <p class="score">Score</p>
+      <p class="level-number">0</p>
+    </div>
+  </div>
+  <div class="game-box" id="pentagon-box">
+    <div class="pentagon">
+      <img src="images/bg-pentagon.svg" alt="pentagon">
+    </div>
+    <div class="circles scissors" id="scissors">
+      <img class="icon" src="images/icon-scissors.svg" alt="scissors">
+    </div>
+    <div class="circles lizard" id="lizard">
+      <img class="icon" src="images/icon-lizard.svg" alt="lizard">
+    </div>
+    <div class="circles paper" id="paper">
+      <img class="icon" src="images/icon-paper.svg" alt="paper">
+    </div>
+    <div class="circles rock" id="rock">
+      <img class="icon" src="images/icon-rock.svg" alt="rock">
+    </div>
+    <div class="circles spock" id="spock">
+      <img class="icon" src="images/icon-spock.svg" alt="spock">
+    </div>
+  </div>
+
+
+  <div class="game-box choice-box hidden">
+      <div class="user-choice">
+        <h2>You Picked</h2>
+        <div class="selected-circles user-selected selected">
+          <img class="icon icon-user" src="images/icon-close.svg" alt="user-selected-icon">
+        </div>
+      </div>
+
+      <div class="choise-result">
+        <h1 class="win hidden">You win</h1>
+        <h1 class="loose hidden">You loose</h1>
+        <h1 class="nobody hidden">Nobody Wins</h1>
+        <button class="btn hidden" type="button" name="button">Play Again</button>
+      </div>
+
+      <div class="computer-choice">
+        <h2>The House Picked</h2>
+        <div class="selected-circles computer-selected selected">
+          <img class="icon icon-computer" src="images/icon-close.svg" alt="computer-selected-icon">
+        </div>
+      </div>
+  </div>
+
+  <div class="rule">
+    <button class="rules" type="button" name="button">Rules</button>
+  </div>
+
+<div class="popup-background hidden">
+  <div class="popup">
+    <div class="popuptext">
+      <p>Rules</p>
+      <img class="close" src="images/icon-close.svg" alt="close">
+    </div>
+    <div class="popupimage">
+      <img src="images/image-rules-bonus.svg" alt="rules">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/ValSalo">Salo Valeriia</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
