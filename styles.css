@@ -216,34 +216,34 @@ p {
   }
 
   .game-box {
-    width: 400px;
+    width: 300px;
     margin-top: 120px;
     margin-bottom: 100px;
   }
 
   .scissors {
     top: -60px;
-    left: 120px;
+    left: 70px;
   }
 
   .lizard {
     top: 40px;
-    left: -50px;
+    left: -100px;
   }
 
   .paper {
     top: 40px;
-    left: 290px;
+    left: 240px;
   }
 
   .rock {
     top: 220px;
-    left: 220px;
+    left: 170px;
   }
 
   .spock {
     top: 220px;
-    left: 20px;
+    left: -30px;
   }
 
   .choice-box {
@@ -293,15 +293,6 @@ p {
     background-color: #ffff;
   }
 
-  /* .popup {
-    background-color: #ffff;
-    padding: 3%;
-    font-size: 21px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    border-radius: 10px;
-  } */
 
   .popuptext {
     justify-content: center;
